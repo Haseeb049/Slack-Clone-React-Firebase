@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Chat.css";
 import { useParams } from "react-router-dom";
 import { InfoOutlined, StarBorderOutlined } from "@mui/icons-material";
-import db from "./firebase";
-import Message from "./Message";
-import ChatInput from "./ChatInput";
+import db from "../../firebase";
+import Message from "../message/Message";
+import ChatInput from "./chatInput/ChatInput";
 function Chat() {
   const { roomId } = useParams();
   const [roomDetails, setRoomDetails] = useState(null);

@@ -1,11 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import * as ReactDOMClient from "react-dom/client";
-import { StateProvider } from "./StateProvider";
-import { reducer, initialState } from "./reducer";
+import { StateProvider } from "./context/StateProvider";
+import { reducer, initialState } from "./context/reducer";
 const container = document.getElementById("root");
 
 const root = ReactDOMClient.createRoot(container);
