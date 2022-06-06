@@ -1,7 +1,7 @@
 import React from "react";
 import "./SidebarOption.css";
 import { useNavigate } from "react-router-dom";
-import db from "./firebase";
+import db from "../../../firebase";
 function SidebarOption({ Icon, title, id, addChannelOption }) {
   const navigate = useNavigate();
 
