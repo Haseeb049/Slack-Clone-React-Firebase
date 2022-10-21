@@ -1,9 +1,11 @@
-# Getting Started with Create React App
+# Slack Clone developed with React and Firbase
+# Description
+It is a clone of slack app. I have integrated Google authentication. Users can create channels. User can chat with each other. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Instructions
-1. Clone this project
-2. Use node version v14.18.3
-3. npm install
-4. npm start
+# Setup
+1. install node v14.18.3
+
+Steps to run this project:
+1. npm install
+2. npm start
